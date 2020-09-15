@@ -1,16 +1,103 @@
 *
 {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 html
 {
-    font-size: 62.5%;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
 }
 
 body
 {
-    font-family: roboto, HelveticaNeue, Arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+img 
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+.header
+{
+    width: 100%;
+    height: 60px;
+}
+
+.navbar
+{
+    min-width: 181px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.ulist
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    list-style: none;
+}
+
+.ulist__item
+{
+    margin-right: 15px;
+}
+
+.ulist__item > a
+{
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+.ulist__item > a:hover
+{
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.ulist__item--icon
+{
+    width: 15px;
+    height: 15px;
+    opacity: .55;
+    background-image: url(../img/grid.svg);
+    background-size: contain;
+    background-repeat: initial;
+}
+
+.ulist__item--icon:hover
+{
+    opacity: .85;
+}
+
+.avatar
+{
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.avatar > img 
+{
+    border-radius: 50%;
+}
+
+.avatar > img:hover
+{
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
