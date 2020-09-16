@@ -217,6 +217,8 @@ img
 
 .footer
 {
+    display: fixed;
+    bottom: 0;
     width: 100%;
     font-size: 15px;
     color: rgba(0,0,0,.54);
