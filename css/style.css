@@ -232,6 +232,7 @@ img
     line-height: 40px;
     background-color: #f2f2f2;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .footer__right, .footer__left
@@ -257,7 +258,19 @@ img
     justify-content: flex-start;
 }
 
+.footer .ulist > .ulist__item
+{
+    margin-right: 27px;
+}
+
+.footer .ulist > .ulist__item:last-child
+{
+    margin: 0;
+}
+
+
 .footer .ulist > .ulist__item > a 
 {
     color: #5f6368;
+    font-size: 14px;
 }
