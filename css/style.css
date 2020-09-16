@@ -217,7 +217,7 @@ img
 
 .footer
 {
-    display: fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 15px;
@@ -243,6 +243,7 @@ img
 .footer__right > .ulist, .footer__left > .ulist
 {
     width: auto;
+    margin: 0;
     padding: 0;
 }
 
